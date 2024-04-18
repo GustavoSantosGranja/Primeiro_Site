@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    /* Aplica a imagem de fundo da LP */
+    background-image: url(img/maldives-1993704_1280.jpg);
+    /* Deixa apenas uma */
+    background-repeat: no-repeat;
+   /* Cobre o fundo com apenas uma imagem */
+    background-size: cover;
+}
+
+/* Altera tudo ao redor do botão */
+.login {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  margin-right: 40px;
+
+
+}
+/* Altera o texto */
+.login a{
+    /* Texto maiusculo */
+    text-transform: uppercase;
+    /* Tira o Sublinado */
+    text-decoration: none;
+    /* Tamanho da Fonte */
+    font-size: 35px;
+    /* Fonte da Letra */
+    font-family: "Indie Flower", cursive;
+    /* Espessura da letra */
+    font-weight: 900;
+    /* Cor da Letra */
+    color: #8C7B7C;
+    /* Cor de Fundo */
+    background-color: beige;
+    /* Espaçamento Interno */
+    padding: 10px 30px;
+    /* Arredondar bordas */
+    border-radius: 15px;
+
+
+}
+h1{
+  text-transform: uppercase;
+  font-size: 90px;
+  color: beige;
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.informacoes p{
+  font-size: 30px;
+  color: beige;
+  text-transform: uppercase;
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+#inputNome{
+  /* Largura */
+  width: 550px;
+  /* Altura */
+  height: 40px;
+  /* Arredondar a Borda */
+  border-radius: 15px;
+  /* Tira a borda do input */
+  border-style: none;
+}
+
+#inputE-mail{
+  width: 350px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+.botaoLogin{
+  
+  width: 200px;
+  
+  color: beige;
+  
+  background-color: #8C7B7C;
+  
+  border-radius: 15px;
+  /* Tamanho da Fonte */
+  font-size: 30px;
+  /* Maiusculo */
+  text-transform: uppercase;
+  /* Retirar Bordas */
+  border-style: none;
+  /* Altura */
+  height: 40px;
+}
+
+.inputs{
+  /* Ajuste de posicionamento */
+  display: flex;
+  /* Direção dos itens em coluna */
+  flex-direction: column;
+  /* Alinhar os itens ao centro */
+  align-items: center;
+  /* Aumenta a margem do topo */
+  margin-top: 30px;
+
+}
+
+  
+.entrarEmail{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 550px;
+
+}
+
+
+.redes{
+  margin-top: 50px;
+  margin-left: 75px;
+  
+
+
+  }
+
+  .redes img{
+    width: 40px;
+
+    
+
+  }
+
+
